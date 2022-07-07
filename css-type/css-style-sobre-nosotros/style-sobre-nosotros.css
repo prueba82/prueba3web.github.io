@@ -1,0 +1,93 @@
+body{background-color: #C8D8D9;
+    border:solid gray 10px;
+    border-radius: 20px;
+    
+    margin:0;
+padding: 0;
+
+}
+
+
+a{color: black;
+    text-decoration: none;}
+
+
+.logo-titulo{ 
+    position:absolute;
+    bottom: 290px;
+
+    font-family: 'Pacifico' ,cursive;
+font-size: 120px;
+padding-left: 30px;
+padding-bottom: 50px;
+
+}
+.subtitulo{
+    
+    font-family: 'PT Serif', serif;
+position: absolute;
+left: 230px;
+top: 200px;
+}
+
+.parrafo{position: absolute;
+    font-family: 'PT Serif', serif;
+    
+}
+
+.letra{position: absolute;
+
+    font-family: 'PT Serif', serif;
+    left: 120px;
+    top: 260px;
+}
+
+.texto-izquierda{
+
+height: 100vh;
+width: 50%;
+
+}
+
+.imagen-android{position: absolute;
+right: 100px;
+top: 120px;
+
+}
+
+
+
+.footer-link{
+
+    position:absolute;
+    top: 750px;
+    left:60%;
+  
+  
+  
+  
+  font-family: 'PT Serif', serif;
+  
+  }
+
+  .link-formulario{    
+    position:absolute;
+    top: 750px;
+    left:40%;
+  
+  
+  
+  
+  font-family: 'PT Serif', serif;}
+  
+  
+  .footer-company-name{
+  
+    position:absolute;
+   padding: 40px;
+    top: 800px;
+    left:44%;
+  font-family:'PT Serif', serif;
+  
+  }
+

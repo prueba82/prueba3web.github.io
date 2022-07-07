@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+nav{ background:#505050 ;
+    position:absolute;
+    /* altura (arriba o abajo),linea de nivel de tablero menu inferior */
+  height: 120px;
+  width: 100%;
+  margin-top: 200px;
+  border-style: 180px solid;
+  border-radius: 15px;
+    text-align: center;
+    /* margen tablero menu parte inferior menu de abajo */
+    border-bottom: 300px;
+
+}
+
+div{text-align: auto
+  ;}
+
+
+
+nav ul{
+  position:relative;
+    list-style: none;
+    display: inline-block;
+    /* posicion letras menu inferior(arriba o abajo) */
+    padding:58px;
+    /* margen parte inferior tablero menu inferior altura */
+  
+   
+    padding-bottom: 0px;
+ 
+ }
+ 
+ 
+
+
+
+
+nav ul li{
+    position:relative;
+    float: left;
+    border-bottom: 200px;
+    /* margen de altura entre marco de la pantalla y el recuadro del tablero
+    menu inferior*/
+    margin-top: -15px;
+    /* margen entre el marco de la pantalla y el espacio en altura del tablero
+    del menu inferior borde inferior del menu */
+    margin-bottom: 0px;
+}
+
+
+/* atributos anbos menus */
+nav ul li a {color:    #202020  ;
+
+  font-family: 'PT Serif', serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    /* espacio entre boton y boton tablero menu inferior */
+    padding: 30px 50px;
+    margin-bottom: 0;
+  }
+
+
+
+/* margen parte inferior  del menu inferior entre marco pantalla y parte inferior del tablero menu */
+  .margen-inferior{bottom: 0px;}
+
+  .block{text-align: center;
+  
+  }
+
+  nav ul li a:hover{
+    background-color: #ffff71 ;
+    border-radius: 20px;
+  
+  }
+

@@ -1,0 +1,110 @@
+/**************************** Para los íconos del botón ***************************/
+/*Fuente: https://icomoon.io/app/#/select*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?6jay0f');
+  src:  url('../fonts/icomoon.eot?6jay0f#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?6jay0f') format('truetype'),
+    url('../fonts/icomoon.woff?6jay0f') format('woff'),
+    url('../fonts/icomoon.svg?6jay0f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-close:before {
+  content: "\ea0f";
+}
+
+/**************************** Menu hamburguesa ***************************/
+
+
+a{color: #1f1f1f;
+  text-decoration: none;
+}
+
+
+/* atributon boton */
+
+.boton-hamburguesa{
+  margin: 20px;
+  width: 60px;
+  height: 45px;
+  line-height: 40px;  
+  border-radius: 50%;
+
+  top: 0;  
+  display: inline-block;
+  position: relative;
+  left:-500px;  /*posicion boton izquierda derecha*/
+  /* altura posicion boton */
+  top:-400px;
+  z-index: 3;
+  text-align: center;  
+  cursor: pointer;  
+  background-color: gray; 
+}
+
+.menu{
+  position:absolute;
+  height: -300px;
+  padding-top: 400px;
+  top: -200px;
+  
+  font-family: 'PT Serif', serif;
+ 
+  margin-left: 47px;
+  right: 5px;
+  z-index: 2;
+  /* anchura tableto menu */
+  width: 20%;
+  
+  left: -100%;
+  transition: .3s;
+ 
+  ;
+}
+
+.menu.active{
+  left: 0;
+}
+
+.menu ul{
+  margin-top: 60px;
+  padding: 10px;
+ 
+}
+
+.menu li{
+  border: 1px solid #010101;
+  list-style: none;
+  display: block;
+  padding: 18px;
+  cursor: pointer;
+ 
+
+  background: rgba(92, 173, 201, .5);
+}
+
+.menu li:hover{
+  background:#1E90FF;
+  
+  color: white;
+ 
+}

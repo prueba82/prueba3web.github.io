@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{background: #C8D8D9 ;}
+
+ header{
+   background: #F9F8FC;
+ }
+ div{position:absolute;
+    background:transparent  ;
+    left:-140px;
+    bottom: 120px;
+    width: 100%;
+    height:0;
+   
+  
+  }
+
+  a{color: black;
+  text-decoration: none;
+  
+  
+  }
+
+
+ #logo{
+   margin-left: 10%;
+  
+   height: 250px;
+   width: 320px;
+   text-align: center;
+ }
+ 
+
+
+ #logo h1{ position:absolute; 
+    background: #C8D8D9;
+    
+    text-align: center;
+ }
+
+    h1{ background:#F9F8FC ;
+        position: absolute;
+        font-size: 90px;
+        left:450px;
+      top:75px;
+      font-family: 'Pacifico' ,cursive;
+    }
+    .imagen-fondo{position:relative;
+               top:110px;
+               left:41.5%;
+               height: 210px;
+               width: 220px;}
+
+
+
+
+
+               .footer-link{
+
+                position:absolute;
+                top: 750px;
+                left:60%;
+              
+              
+              
+              
+              font-family: 'PT Serif', serif;
+              
+              }
+
+              .link-formulario{    
+                position:absolute;
+                top: 750px;
+                left:40%;
+              
+              
+              
+              
+              font-family: 'PT Serif', serif;}
+              
+              
+              .footer-company-name{
+              
+                position:absolute;
+               padding: 40px;
+                top: 800px;
+                left:44%;
+              font-family:'PT Serif', serif;
+              
+              }
